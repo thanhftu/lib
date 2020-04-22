@@ -1,5 +1,5 @@
 package msgqueue
 
 type EventEmitter interface {
-	Emit(event Event)
+	Emit(e Event)
 }

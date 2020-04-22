@@ -1,7 +1,7 @@
 package mongolayer
 
 import (
-	"github.com/thanhftu/src/lib/persistence"
+	"github.com/thanhftu/lib/persistence"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

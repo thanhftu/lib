@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/streadway/amqp"
-	"github.com/thanhftu/src/lib/msgqueue"
+	"github.com/thanhftu/lib/msgqueue"
 )
 
 type amqpEventEmitter struct {

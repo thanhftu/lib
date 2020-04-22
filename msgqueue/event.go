@@ -1,5 +1,5 @@
 package msgqueue
 
-type Event struct {
+type Event interface {
 	EventName() string
 }

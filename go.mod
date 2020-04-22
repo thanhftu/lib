@@ -1,4 +1,4 @@
-module github.com/thanhftu/src/lib
+module github.com/thanhftu/lib
 
 go 1.14
 

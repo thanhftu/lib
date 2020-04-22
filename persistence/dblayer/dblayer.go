@@ -1,8 +1,8 @@
 package dblayer
 
 import (
-	"github.com/thanhftu/src/lib/persistence"
-	"github.com/thanhftu/src/lib/persistence/mongolayer"
+	"github.com/thanhftu/lib/persistence"
+	"github.com/thanhftu/lib/persistence/mongolayer"
 )
 
 type DBTYPE string
