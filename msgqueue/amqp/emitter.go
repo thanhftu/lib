@@ -21,7 +21,7 @@ func (a *amqpEventEmitter) setup() error {
 }
 
 func NewAMQPEventEmitter(conn *amqp.Connection) (msgqueue.EventEmitter, error) {
-	emitter := amqpEventEmitter{
+	emitter := &amqpEventEmitter{
 		connection: conn,
 	}
 	err := emitter.setup()
