@@ -1,5 +1,7 @@
 package msgqueue
 
+// EventListener describes an interface for a class that can listen to events.
 type EventListener interface {
-	Listen(eventNames ...string) (<-chan Event, <-chan error, error)
+	Listen(events ...string) (<-chan Event, <-chan error, error)
+	Mapper() EventMapper
 }
